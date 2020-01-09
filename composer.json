@@ -1,0 +1,21 @@
+{
+    "name": "clair20/composer-example-package",
+    "description": "Example project",
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Clair Pier",
+            "email": "clairgood1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "clair20\\parser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
